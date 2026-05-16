@@ -1,0 +1,612 @@
+Renamed Types:
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::BuildUi[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::BuildActionsCard[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::BuildResultCard[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::StartCheckAsync[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::RunInStaThread[1]( [mscorlib]System.Func`1<[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::ApplyResult[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::StopRunningCheck[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::OpenLogFolder[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::OnLogLine[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::UpdateFromLogLine[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::NameLabel[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::ValueLabel[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::AddRow[6]( [System.Windows.Forms]System.Windows.Forms.TableLayoutPanel, [mscorlib]System.Int32, [mscorlib]System.String, [System.Windows.Forms]System.Windows.Forms.Label, [mscorlib]System.String, [System.Windows.Forms]System.Windows.Forms.Label ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::ResetResultLabels[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::SetRunningState[1]( [mscorlib]System.Boolean ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::SetStatus[3]( [mscorlib]System.String, [mscorlib]System.String, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::SetSummary[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::SetComplianceVisual[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::SetResultVisual[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::SetHttpVisual[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::SetValueVisual[3]( [System.Windows.Forms]System.Windows.Forms.Label, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor, [mscorlib]System.Boolean ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::GetColor[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::After[2]( [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::<BuildActionsCard>b__23_0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::<BuildActionsCard>b__23_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::<BuildActionsCard>b__23_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::.ctor[0]( ) skipped:  special name
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm::OnFormClosed[1]( [System.Windows.Forms]System.Windows.Forms.FormClosedEventArgs ) skipped:  external base class or interface
+
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.MainForm::_logger ->  
+	System.Threading.CancellationTokenSource [CompanyPortalComplianceCheck]System.Threading.CancellationTokenSource CompanyPortalComplianceCheck.MainForm::_cts ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_statusLabel ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_detailLabel ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_summaryLabel ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_deviceValue ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_keyValue ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_lastBeforeValue ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_lastAfterValue ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_complianceValue ->  
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_httpValue -> ​
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_resultValue -> ‐
+	System.Windows.Forms.Label [CompanyPortalComplianceCheck]System.Windows.Forms.Label CompanyPortalComplianceCheck.MainForm::_logFolderValue -> ‑
+	System.Windows.Forms.TextBox [CompanyPortalComplianceCheck]System.Windows.Forms.TextBox CompanyPortalComplianceCheck.MainForm::_logBox -> ‒
+	System.Windows.Forms.NumericUpDown [CompanyPortalComplianceCheck]System.Windows.Forms.NumericUpDown CompanyPortalComplianceCheck.MainForm::_timeoutBox -> –
+	System.Windows.Forms.NumericUpDown [CompanyPortalComplianceCheck]System.Windows.Forms.NumericUpDown CompanyPortalComplianceCheck.MainForm::_pollBox -> —
+	System.Windows.Forms.CheckBox [CompanyPortalComplianceCheck]System.Windows.Forms.CheckBox CompanyPortalComplianceCheck.MainForm::_silentWamOnly -> ―
+	System.Windows.Forms.Button [CompanyPortalComplianceCheck]System.Windows.Forms.Button CompanyPortalComplianceCheck.MainForm::_startButton -> •
+	System.Windows.Forms.Button [CompanyPortalComplianceCheck]System.Windows.Forms.Button CompanyPortalComplianceCheck.MainForm::_stopButton -> ․
+	System.Windows.Forms.Button [CompanyPortalComplianceCheck]System.Windows.Forms.Button CompanyPortalComplianceCheck.MainForm::_openLogsButton -> ‥
+	System.Windows.Forms.ProgressBar [CompanyPortalComplianceCheck]System.Windows.Forms.ProgressBar CompanyPortalComplianceCheck.MainForm::_progress -> ‧
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::add_LineWritten[1]( [mscorlib]System.Action`1<[mscorlib]System.String> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::remove_LineWritten[1]( [mscorlib]System.Action`1<[mscorlib]System.String> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::get_LogFolder[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::set_LogFolder[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::get_LogFile[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::set_LogFile[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::ResetLogFile[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::Info[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::Warn[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::Error[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::Test[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::Write[1]( [mscorlib]System.String ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger::.ctor[0]( ) skipped:  special name
+
+	System.Action`1<System.String> [CompanyPortalComplianceCheck]System.Action`1<System.String> CompanyPortalComplianceCheck.Services.AppLogger::LineWritten ->  
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.AppLogger::<LogFolder>k__BackingField ->  
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.AppLogger::<LogFile>k__BackingField -> ‪
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.AppLogger::LogFolder -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.AppLogger::LogFile -> dropped
+
+	System.Action`1<System.String> [CompanyPortalComplianceCheck]System.Action`1<System.String> CompanyPortalComplianceCheck.Services.AppLogger::LineWritten -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService::GetIntuneMdmCertificateAndIds[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService::IsAdmin[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService::Find[1]( [System]System.Security.Cryptography.X509Certificates.StoreLocation ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService::.ctor[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger ) skipped:  special name
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.CertificateService::MdmOid -> ‫
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.CertificateService::IssuerName -> ‬
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.Services.CertificateService::_logger -> ‭
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::Run[4]( [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Boolean, [mscorlib]System.Threading.CancellationToken ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::HasLastContactChanged[2]( [mscorlib]System.Nullable`1<[mscorlib]System.DateTime>, [mscorlib]System.Nullable`1<[mscorlib]System.DateTime> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::IsCompliantState[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::IsNonCompliantState[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::SafeState[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::FormatNullableDate[1]( [mscorlib]System.Nullable`1<[mscorlib]System.DateTime> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::ResponsiveSleep[2]( [mscorlib]System.Int32, [mscorlib]System.Threading.CancellationToken ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ComplianceCheckService::.ctor[7]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.RegistryDiscoveryService, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.LocationDiscoveryService, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService ) skipped:  special name
+
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.Services.ComplianceCheckService::_logger -> ‮
+	CompanyPortalComplianceCheck.Services.CertificateService [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService CompanyPortalComplianceCheck.Services.ComplianceCheckService::_certificateService ->  
+	CompanyPortalComplianceCheck.Services.RegistryDiscoveryService [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.RegistryDiscoveryService CompanyPortalComplianceCheck.Services.ComplianceCheckService::_registryService -> ′
+	CompanyPortalComplianceCheck.Services.LocationDiscoveryService [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.LocationDiscoveryService CompanyPortalComplianceCheck.Services.ComplianceCheckService::_locationService -> ‵
+	CompanyPortalComplianceCheck.Services.WamTokenService [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService CompanyPortalComplianceCheck.Services.ComplianceCheckService::_wamTokenService -> ″
+	CompanyPortalComplianceCheck.Services.IwServiceClient [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient CompanyPortalComplianceCheck.Services.ComplianceCheckService::_client -> ‶
+	CompanyPortalComplianceCheck.Services.MdmSyncService [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService CompanyPortalComplianceCheck.Services.ComplianceCheckService::_mdmSyncService -> ‾
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::get_LastStatusCode[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::set_LastStatusCode[1]( [mscorlib]System.Nullable`1<[mscorlib]System.Int32> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::get_LastStatusDescription[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::set_LastStatusDescription[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::GetIwDevices[2]( [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::GetIwDeviceByKey[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::InvokeIwCheckCompliance[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::GetIwDeviceFriendlyValues[1]( [mscorlib]System.Object ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::ResolveLocalIwDevice[2]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.Object>, [mscorlib]System.Collections.Generic.IEnumerable`1<[mscorlib]System.String> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::GetIwDeviceKey[1]( [mscorlib]System.Object ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::InvokeIwServiceRequest[4]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::GetCompanyPortalQuery[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Boolean ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::GetOsVersion[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::GuidTextEquals[2]( [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::<ResolveLocalIwDevice>b__14_0[2]( [mscorlib]System.Object, [mscorlib]System.Object ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.IwServiceClient::.ctor[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger ) skipped:  special name
+
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.Services.IwServiceClient::_logger -> ⁇
+	System.Nullable`1<System.Int32> [CompanyPortalComplianceCheck]System.Nullable`1<System.Int32> CompanyPortalComplianceCheck.Services.IwServiceClient::<LastStatusCode>k__BackingField -> ⁈
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.IwServiceClient::<LastStatusDescription>k__BackingField -> ⁉
+
+	System.Nullable`1<System.Int32> [CompanyPortalComplianceCheck]System.Nullable`1<System.Int32> CompanyPortalComplianceCheck.Services.IwServiceClient::LastStatusCode -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.IwServiceClient::LastStatusDescription -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.LocationDiscoveryService -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.LocationDiscoveryService::QueryLocationService[2]( [mscorlib]System.String[], [System]System.Security.Cryptography.X509Certificates.X509Certificate2 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.LocationDiscoveryService::GetIwServiceBaseUrlFromSideCarEndpoint[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.LocationDiscoveryService::IsTrue[1]( [mscorlib]System.Object ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.LocationDiscoveryService::.ctor[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger ) skipped:  special name
+
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.Services.LocationDiscoveryService::_logger -> ⁊
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::TriggerCompanyPortalStyleSync[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::TriggerMdmCheckIn[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::TriggerMdmCheckInCore[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::TriggerMdmSessionManager[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::TriggerEnterpriseMgmtSchedule3[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::TriggerImeSyncAppProtocol[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::TriggerImeSyncAppProtocolThroughPowerShell[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::IsImeInstalled[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::GetOmaDmAccountIds[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::RunProcess[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Int32 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::Quote[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::CleanProcessMessage[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService::.ctor[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger ) skipped:  special name
+
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.Services.MdmSyncService::_logger -> ⁋
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.RegistryDiscoveryService -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.RegistryDiscoveryService::GetIntuneLocationServiceUrls[0]( ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.RegistryDiscoveryService::.ctor[1]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger ) skipped:  special name
+
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.Services.RegistryDiscoveryService::_logger -> ⁌
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::GetIwServiceWamBearerToken[1]( [mscorlib]System.Boolean ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::GetWamToken[4]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Boolean ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::InitializeWinRt[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::GetWamProvider[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::NewWamTokenRequest[3]( [mscorlib]System.Object, [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::SetWamRequestResource[2]( [mscorlib]System.Object, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::GetWamFirstTokenResponse[2]( [mscorlib]System.Object, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::InvokeWinRtAsync[2]( [mscorlib]System.Object, [mscorlib]System.Type ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::InvokeStatic[3]( [mscorlib]System.Type, [mscorlib]System.String, [mscorlib]System.Object[] ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::IsSuccess[1]( [mscorlib]System.Object ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::GetWinRtType[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::GetProperty[2]( [mscorlib]System.Object, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::GetPropertyText[2]( [mscorlib]System.Object, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::Enumerate[1]( [mscorlib]System.Object ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService::.ctor[2]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger, [mscorlib]System.IntPtr ) skipped:  special name
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.WamTokenService::CompanyPortalClientId -> ⁍
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.WamTokenService::IwServiceResource -> ⁎
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.WamTokenService::WamProviderUrl -> ⁏
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.WamTokenService::WamAuthority -> ⁐
+	CompanyPortalComplianceCheck.Services.AppLogger [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger CompanyPortalComplianceCheck.Services.WamTokenService::_logger -> ⁑
+	System.IntPtr [CompanyPortalComplianceCheck]System.IntPtr CompanyPortalComplianceCheck.Services.WamTokenService::_ownerWindow -> ⁒
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.WamTokenService::_iwServiceToken -> ⁓
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Services.WamTokenService::_provider -> ⁔
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Services.WamTokenService::_webAccount -> ⁕
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.WamTokenService::_wamUserId -> ⁖
+	System.Reflection.MethodInfo [CompanyPortalComplianceCheck]System.Reflection.MethodInfo CompanyPortalComplianceCheck.Services.WamTokenService::_asTaskMethod -> ⁗
+	System.Type [CompanyPortalComplianceCheck]System.Type CompanyPortalComplianceCheck.Services.WamTokenService::_providerType -> ⁘
+	System.Type [CompanyPortalComplianceCheck]System.Type CompanyPortalComplianceCheck.Services.WamTokenService::_tokenResultType -> ⁙
+	System.Type [CompanyPortalComplianceCheck]System.Type CompanyPortalComplianceCheck.Services.WamTokenService::_webAuthManagerType -> ⁚
+	System.Type [CompanyPortalComplianceCheck]System.Type CompanyPortalComplianceCheck.Services.WamTokenService::_webTokenRequestType -> ⁛
+	System.Type [CompanyPortalComplianceCheck]System.Type CompanyPortalComplianceCheck.Services.WamTokenService::_statusType -> ⁜
+	System.Guid [CompanyPortalComplianceCheck]System.Guid CompanyPortalComplianceCheck.Services.WamTokenService::_tokenResultAsyncGuid -> ⁝
+	System.Boolean [CompanyPortalComplianceCheck]System.Boolean CompanyPortalComplianceCheck.Services.WamTokenService::_initialized -> ⁞
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_DeviceName[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_DeviceName[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_DeviceKey[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_DeviceKey[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_LastContactBefore[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_LastContactBefore[1]( [mscorlib]System.Nullable`1<[mscorlib]System.DateTime> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_LastContactAfter[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_LastContactAfter[1]( [mscorlib]System.Nullable`1<[mscorlib]System.DateTime> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_ComplianceState[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_ComplianceState[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_FailedApps[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_FailedApps[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_PostStatusCode[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_PostStatusCode[1]( [mscorlib]System.Nullable`1<[mscorlib]System.Int32> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_PostStatusDescription[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_PostStatusDescription[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_LastContactChanged[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_LastContactChanged[1]( [mscorlib]System.Boolean ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_DurationSeconds[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_DurationSeconds[1]( [mscorlib]System.Int32 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_StatusText[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_StatusText[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_Summary[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_Summary[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_Result[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_Result[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::get_LogFile[0]( ) -> ​
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::set_LogFile[1]( [mscorlib]System.String ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.ComplianceCheckResult::.ctor[0]( ) skipped:  special name
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<DeviceName>k__BackingField ->  
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<DeviceKey>k__BackingField -> ⁠
+	System.Nullable`1<System.DateTime> [CompanyPortalComplianceCheck]System.Nullable`1<System.DateTime> CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<LastContactBefore>k__BackingField -> ⁡
+	System.Nullable`1<System.DateTime> [CompanyPortalComplianceCheck]System.Nullable`1<System.DateTime> CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<LastContactAfter>k__BackingField -> ⁢
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<ComplianceState>k__BackingField -> ⁣
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<FailedApps>k__BackingField -> ⁤
+	System.Nullable`1<System.Int32> [CompanyPortalComplianceCheck]System.Nullable`1<System.Int32> CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<PostStatusCode>k__BackingField -> ⁪
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<PostStatusDescription>k__BackingField -> ⁫
+	System.Boolean [CompanyPortalComplianceCheck]System.Boolean CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<LastContactChanged>k__BackingField -> ⁬
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<DurationSeconds>k__BackingField -> ⁭
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<StatusText>k__BackingField -> ⁮
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<Summary>k__BackingField -> ⁯
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<Result>k__BackingField -> 　
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::<LogFile>k__BackingField ->   
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::DeviceName -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::DeviceKey -> dropped
+	System.Nullable`1<System.DateTime> [CompanyPortalComplianceCheck]System.Nullable`1<System.DateTime> CompanyPortalComplianceCheck.Models.ComplianceCheckResult::LastContactBefore -> dropped
+	System.Nullable`1<System.DateTime> [CompanyPortalComplianceCheck]System.Nullable`1<System.DateTime> CompanyPortalComplianceCheck.Models.ComplianceCheckResult::LastContactAfter -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::ComplianceState -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::FailedApps -> dropped
+	System.Nullable`1<System.Int32> [CompanyPortalComplianceCheck]System.Nullable`1<System.Int32> CompanyPortalComplianceCheck.Models.ComplianceCheckResult::PostStatusCode -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::PostStatusDescription -> dropped
+	System.Boolean [CompanyPortalComplianceCheck]System.Boolean CompanyPortalComplianceCheck.Models.ComplianceCheckResult::LastContactChanged -> dropped
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.Models.ComplianceCheckResult::DurationSeconds -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::StatusText -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::Summary -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::Result -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.ComplianceCheckResult::LogFile -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::get_DeviceName[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::set_DeviceName[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::get_LastContactRaw[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::set_LastContactRaw[1]( [mscorlib]System.Object ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::get_LastContact[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::set_LastContact[1]( [mscorlib]System.Nullable`1<[mscorlib]System.DateTime> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::get_ComplianceState[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::set_ComplianceState[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::get_FailedApps[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::set_FailedApps[1]( [mscorlib]System.String ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::.ctor[0]( ) skipped:  special name
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::<DeviceName>k__BackingField ->   
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::<LastContactRaw>k__BackingField ->   
+	System.Nullable`1<System.DateTime> [CompanyPortalComplianceCheck]System.Nullable`1<System.DateTime> CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::<LastContact>k__BackingField ->   
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::<ComplianceState>k__BackingField ->   
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::<FailedApps>k__BackingField ->   
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::DeviceName -> dropped
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::LastContactRaw ->  ⁙
+	System.Nullable`1<System.DateTime> [CompanyPortalComplianceCheck]System.Nullable`1<System.DateTime> CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::LastContact -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::ComplianceState -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.DeviceFriendlyValues::FailedApps -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.IwPostResult -> [CompanyPortalComplianceCheck] .​
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.IwPostResult::get_StatusCode[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.IwPostResult::set_StatusCode[1]( [mscorlib]System.Nullable`1<[mscorlib]System.Int32> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.IwPostResult::get_StatusDescription[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.IwPostResult::set_StatusDescription[1]( [mscorlib]System.String ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.IwPostResult::.ctor[0]( ) skipped:  special name
+
+	System.Nullable`1<System.Int32> [CompanyPortalComplianceCheck]System.Nullable`1<System.Int32> CompanyPortalComplianceCheck.Models.IwPostResult::<StatusCode>k__BackingField ->   
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.IwPostResult::<StatusDescription>k__BackingField ->   
+
+	System.Nullable`1<System.Int32> [CompanyPortalComplianceCheck]System.Nullable`1<System.Int32> CompanyPortalComplianceCheck.Models.IwPostResult::StatusCode -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.IwPostResult::StatusDescription -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo -> [CompanyPortalComplianceCheck] .‐
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::get_Certificate[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::set_Certificate[1]( [System]System.Security.Cryptography.X509Certificates.X509Certificate2 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::get_CertStoreLocation[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::set_CertStoreLocation[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::get_DeviceId[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::set_DeviceId[1]( [mscorlib]System.Guid ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::get_AccountId[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::set_AccountId[1]( [mscorlib]System.Nullable`1<[mscorlib]System.Guid> ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.MdmCertificateInfo::.ctor[0]( ) skipped:  special name
+
+	System.Security.Cryptography.X509Certificates.X509Certificate2 [CompanyPortalComplianceCheck]System.Security.Cryptography.X509Certificates.X509Certificate2 CompanyPortalComplianceCheck.Models.MdmCertificateInfo::<Certificate>k__BackingField ->   
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.MdmCertificateInfo::<CertStoreLocation>k__BackingField ->   
+	System.Guid [CompanyPortalComplianceCheck]System.Guid CompanyPortalComplianceCheck.Models.MdmCertificateInfo::<DeviceId>k__BackingField ->   
+	System.Nullable`1<System.Guid> [CompanyPortalComplianceCheck]System.Nullable`1<System.Guid> CompanyPortalComplianceCheck.Models.MdmCertificateInfo::<AccountId>k__BackingField ->   
+
+	System.Security.Cryptography.X509Certificates.X509Certificate2 [CompanyPortalComplianceCheck]System.Security.Cryptography.X509Certificates.X509Certificate2 CompanyPortalComplianceCheck.Models.MdmCertificateInfo::Certificate -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.MdmCertificateInfo::CertStoreLocation -> dropped
+	System.Guid [CompanyPortalComplianceCheck]System.Guid CompanyPortalComplianceCheck.Models.MdmCertificateInfo::DeviceId -> dropped
+	System.Nullable`1<System.Guid> [CompanyPortalComplianceCheck]System.Nullable`1<System.Guid> CompanyPortalComplianceCheck.Models.MdmCertificateInfo::AccountId -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult -> [CompanyPortalComplianceCheck] .‑
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::get_AccessToken[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::set_AccessToken[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::get_AcquiredAtUtc[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::set_AcquiredAtUtc[1]( [mscorlib]System.DateTime ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::get_ClientId[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::set_ClientId[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::get_Resource[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::set_Resource[1]( [mscorlib]System.String ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Models.WamTokenResult::.ctor[0]( ) skipped:  special name
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.WamTokenResult::<AccessToken>k__BackingField ->   
+	System.DateTime [CompanyPortalComplianceCheck]System.DateTime CompanyPortalComplianceCheck.Models.WamTokenResult::<AcquiredAtUtc>k__BackingField ->  ​
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.WamTokenResult::<ClientId>k__BackingField ->  ‐
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.WamTokenResult::<Resource>k__BackingField ->  ‑
+
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.WamTokenResult::AccessToken -> dropped
+	System.DateTime [CompanyPortalComplianceCheck]System.DateTime CompanyPortalComplianceCheck.Models.WamTokenResult::AcquiredAtUtc -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.WamTokenResult::ClientId -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Models.WamTokenResult::Resource -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor -> [CompanyPortalComplianceCheck] . / 
+{
+	CompanyPortalComplianceCheck.MainForm/CpcColor [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor CompanyPortalComplianceCheck.MainForm/CpcColor::Blue ->  ‒
+	CompanyPortalComplianceCheck.MainForm/CpcColor [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor CompanyPortalComplianceCheck.MainForm/CpcColor::Green ->  –
+	CompanyPortalComplianceCheck.MainForm/CpcColor [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor CompanyPortalComplianceCheck.MainForm/CpcColor::Amber ->  —
+	CompanyPortalComplianceCheck.MainForm/CpcColor [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/CpcColor CompanyPortalComplianceCheck.MainForm/CpcColor::Red ->  ―
+
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.MainForm/CpcColor::value__ skipped:  special name
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<<BuildActionsCard>b__23_0>d -> [CompanyPortalComplianceCheck] . / 
+{
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<<BuildActionsCard>b__23_0>d::MoveNext[0]( ) skipped:  external base class or interface
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<<BuildActionsCard>b__23_0>d::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.MainForm/<<BuildActionsCard>b__23_0>d::<>1__state ->  •
+	System.Runtime.CompilerServices.AsyncVoidMethodBuilder [CompanyPortalComplianceCheck]System.Runtime.CompilerServices.AsyncVoidMethodBuilder CompanyPortalComplianceCheck.MainForm/<<BuildActionsCard>b__23_0>d::<>t__builder ->  ․
+	CompanyPortalComplianceCheck.MainForm [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm CompanyPortalComplianceCheck.MainForm/<<BuildActionsCard>b__23_0>d::<>4__this ->  ‥
+	System.Runtime.CompilerServices.TaskAwaiter [CompanyPortalComplianceCheck]System.Runtime.CompilerServices.TaskAwaiter CompanyPortalComplianceCheck.MainForm/<<BuildActionsCard>b__23_0>d::<>u__1 ->  ‧
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass22_0 -> [CompanyPortalComplianceCheck] . / 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass22_0::<BuildUi>b__0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass22_0::<BuildUi>b__1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass22_0::.ctor[0]( ) skipped:  special name
+
+	CompanyPortalComplianceCheck.MainForm [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass22_0::<>4__this ->   
+	System.Windows.Forms.Panel [CompanyPortalComplianceCheck]System.Windows.Forms.Panel CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass22_0::header ->   
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0 -> [CompanyPortalComplianceCheck] . / 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::<StartCheckAsync>b__0[0]( ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::.ctor[0]( ) skipped:  special name
+
+	CompanyPortalComplianceCheck.MainForm [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::<>4__this ->  ‪
+	System.IntPtr [CompanyPortalComplianceCheck]System.IntPtr CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::owner ->  ‫
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::timeout ->  ‬
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::poll ->  ‭
+	System.Boolean [CompanyPortalComplianceCheck]System.Boolean CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::silent ->  ‮
+	System.Threading.CancellationToken [CompanyPortalComplianceCheck]System.Threading.CancellationToken CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass25_0::token ->   
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass26_0 -> [CompanyPortalComplianceCheck] . / 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass26_0::<RunInStaThread>b__0[0]( ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass26_0::.ctor[0]( ) skipped:  special name
+
+	System.Threading.Tasks.TaskCompletionSource`1<CompanyPortalComplianceCheck.Models.ComplianceCheckResult> [CompanyPortalComplianceCheck]System.Threading.Tasks.TaskCompletionSource`1<CompanyPortalComplianceCheck.Models.ComplianceCheckResult> CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass26_0::tcs ->  ′
+	System.Func`1<CompanyPortalComplianceCheck.Models.ComplianceCheckResult> [CompanyPortalComplianceCheck]System.Func`1<CompanyPortalComplianceCheck.Models.ComplianceCheckResult> CompanyPortalComplianceCheck.MainForm/<>c__DisplayClass26_0::action ->  ‵
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<StartCheckAsync>d__25 -> [CompanyPortalComplianceCheck] . / 
+{
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<StartCheckAsync>d__25::MoveNext[0]( ) skipped:  external base class or interface
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm/<StartCheckAsync>d__25::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.MainForm/<StartCheckAsync>d__25::<>1__state ->  ″
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [CompanyPortalComplianceCheck]System.Runtime.CompilerServices.AsyncTaskMethodBuilder CompanyPortalComplianceCheck.MainForm/<StartCheckAsync>d__25::<>t__builder ->  ‶
+	CompanyPortalComplianceCheck.MainForm [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.MainForm CompanyPortalComplianceCheck.MainForm/<StartCheckAsync>d__25::<>4__this ->  ‾
+	System.Runtime.CompilerServices.TaskAwaiter`1<CompanyPortalComplianceCheck.Models.ComplianceCheckResult> [CompanyPortalComplianceCheck]System.Runtime.CompilerServices.TaskAwaiter`1<CompanyPortalComplianceCheck.Models.ComplianceCheckResult> CompanyPortalComplianceCheck.MainForm/<StartCheckAsync>d__25::<>u__1 ->  ⁇
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program/<>c -> [CompanyPortalComplianceCheck] . / 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program/<>c::<RunConsole>b__3_0[1]( [mscorlib]System.String ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program/<>c::.cctor[0]( ) skipped:  special name
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program/<>c::.ctor[0]( ) skipped:  special name
+
+	CompanyPortalComplianceCheck.Program/<>c [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program/<>c CompanyPortalComplianceCheck.Program/<>c::<>9 ->  ⁈
+	System.Action`1<System.String> [CompanyPortalComplianceCheck]System.Action`1<System.String> CompanyPortalComplianceCheck.Program/<>c::<>9__3_0 ->  ⁉
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c -> [CompanyPortalComplianceCheck] . / 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c::<Find>b__6_0[1]( [System]System.Security.Cryptography.X509Certificates.X509Certificate2 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c::<Find>b__6_1[1]( [System]System.Security.Cryptography.X509Certificates.X509Certificate2 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c::<Find>b__6_4[1]( [System]System.Security.Cryptography.X509Certificates.X509Extension ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c::<Find>b__6_2[1]( [System]System.Security.Cryptography.X509Certificates.X509Certificate2 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c::<Find>b__6_3[1]( [System]System.Security.Cryptography.X509Certificates.X509Certificate2 ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c::.cctor[0]( ) skipped:  special name
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c::.ctor[0]( ) skipped:  special name
+
+	CompanyPortalComplianceCheck.Services.CertificateService/<>c [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.CertificateService/<>c CompanyPortalComplianceCheck.Services.CertificateService/<>c::<>9 ->  ⁊
+	System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean> [CompanyPortalComplianceCheck]System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean> CompanyPortalComplianceCheck.Services.CertificateService/<>c::<>9__6_0 ->  ⁋
+	System.Func`2<System.Security.Cryptography.X509Certificates.X509Extension,System.Boolean> [CompanyPortalComplianceCheck]System.Func`2<System.Security.Cryptography.X509Certificates.X509Extension,System.Boolean> CompanyPortalComplianceCheck.Services.CertificateService/<>c::<>9__6_4 ->  ⁌
+	System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean> [CompanyPortalComplianceCheck]System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean> CompanyPortalComplianceCheck.Services.CertificateService/<>c::<>9__6_1 ->  ⁍
+	System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean> [CompanyPortalComplianceCheck]System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean> CompanyPortalComplianceCheck.Services.CertificateService/<>c::<>9__6_2 ->  ⁎
+	System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.DateTime> [CompanyPortalComplianceCheck]System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.DateTime> CompanyPortalComplianceCheck.Services.CertificateService/<>c::<>9__6_3 ->  ⁏
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult -> [CompanyPortalComplianceCheck] . / 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::get_ExitCode[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::get_Output[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::get_Error[0]( ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::.ctor[3]( [mscorlib]System.Int32, [mscorlib]System.String, [mscorlib]System.String ) skipped:  special name
+
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::<ExitCode>k__BackingField ->  ⁐
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::<Output>k__BackingField ->  ⁑
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::<Error>k__BackingField ->  ⁒
+
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::ExitCode -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::Output -> dropped
+	System.String [CompanyPortalComplianceCheck]System.String CompanyPortalComplianceCheck.Services.MdmSyncService/ProcessResult::Error -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32 -> [CompanyPortalComplianceCheck] . / 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.IDisposable.Dispose[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::<>m__Finally1[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.Collections.Generic.IEnumerator<System.Object>.get_Current[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.Collections.IEnumerator.Reset[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.Collections.IEnumerator.get_Current[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.Collections.IEnumerable.GetEnumerator[0]( ) ->  
+
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::.ctor[1]( [mscorlib]System.Int32 ) skipped:  special name
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::MoveNext[0]( ) skipped:  external base class or interface
+
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::<>1__state ->  ⁓
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::<>2__current ->  ⁔
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::<>l__initialThreadId ->  ⁕
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::data ->  ⁖
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::<>3__data ->  ⁗
+	System.Collections.IEnumerator [CompanyPortalComplianceCheck]System.Collections.IEnumerator CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::<>7__wrap1 ->  ⁘
+
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.Collections.Generic.IEnumerator<System.Object>.Current -> dropped
+	System.Object [CompanyPortalComplianceCheck]System.Object CompanyPortalComplianceCheck.Services.WamTokenService/<Enumerate>d__32::System.Collections.IEnumerator.Current -> dropped
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program::Main[1]( [mscorlib]System.String[] ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program::HasArg[2]( [mscorlib]System.String[], [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program::GetIntArg[3]( [mscorlib]System.String[], [mscorlib]System.String, [mscorlib]System.Int32 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Program::RunConsole[1]( [mscorlib]System.String[] ) ->  
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ServiceFactory -> [CompanyPortalComplianceCheck] . 
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.ServiceFactory::Create[2]( [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger, [mscorlib]System.IntPtr ) ->  
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.IWebAuthenticationCoreManagerInterop -> [CompanyPortalComplianceCheck] .‒
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.IWebAuthenticationCoreManagerInterop::GetIids[2]( [mscorlib]System.UInt32&, [mscorlib]System.IntPtr& ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.IWebAuthenticationCoreManagerInterop::GetRuntimeClassName[1]( [mscorlib]System.IntPtr& ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.IWebAuthenticationCoreManagerInterop::GetTrustLevel[1]( [mscorlib]System.Int32& ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync[4]( [mscorlib]System.IntPtr, [mscorlib]System.Object, [mscorlib]System.Guid&, [mscorlib]System.IntPtr& ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync[5]( [mscorlib]System.IntPtr, [mscorlib]System.Object, [mscorlib]System.Object, [mscorlib]System.Guid&, [mscorlib]System.IntPtr& ) ->  
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.WamDesktopInterop -> [CompanyPortalComplianceCheck] .–
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.WamDesktopInterop::GetConsoleWindow[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.WamDesktopInterop::GetForegroundWindow[0]( ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.WamDesktopInterop::ResolveOwnerWindow[1]( [mscorlib]System.IntPtr ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.WamDesktopInterop::TrySetStringStringMap[4]( [mscorlib]System.Object, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String& ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.WamDesktopInterop::RequestTokenForWindowAsync[4]( [mscorlib]System.Type, [mscorlib]System.IntPtr, [mscorlib]System.Object, [mscorlib]System.Guid ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Interop.WamDesktopInterop::RequestTokenWithWebAccountForWindowAsync[5]( [mscorlib]System.Type, [mscorlib]System.IntPtr, [mscorlib]System.Object, [mscorlib]System.Object, [mscorlib]System.Guid ) ->  
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper -> [CompanyPortalComplianceCheck] .—
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper::GetPropertyCaseInsensitive[2]( [mscorlib]System.Object, [mscorlib]System.String[] ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper::FindValueDeep[3]( [mscorlib]System.Object, [mscorlib]System.String[], [mscorlib]System.Int32 ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper::ConvertIwDateTime[1]( [mscorlib]System.Object ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper::ConvertToItems[1]( [mscorlib]System.Object ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper::ConvertToGuidText[1]( [mscorlib]System.Object ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper::ExtractGuid[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.DynamicObjectHelper::AddItems[2]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.Object>, [mscorlib]System.Object ) ->  
+}
+
+[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.JwtHelper -> [CompanyPortalComplianceCheck] .―
+{
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.JwtHelper::ConvertFromJwtPayload[1]( [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.JwtHelper::GetExpiryLocal[1]( [mscorlib]System.Collections.Generic.IDictionary`2<[mscorlib]System.String,[mscorlib]System.Object> ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.JwtHelper::GetClaimText[2]( [mscorlib]System.Collections.Generic.IDictionary`2<[mscorlib]System.String,[mscorlib]System.Object>, [mscorlib]System.String ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.JwtHelper::GetDeviceIdsFromToken[2]( [mscorlib]System.String, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.JwtHelper::WriteClaimSummary[3]( [mscorlib]System.String, [mscorlib]System.String, [CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Services.AppLogger ) ->  
+	[CompanyPortalComplianceCheck]CompanyPortalComplianceCheck.Helpers.JwtHelper::TryGetClaim[3]( [mscorlib]System.Collections.Generic.IDictionary`2<[mscorlib]System.String,[mscorlib]System.Object>, [mscorlib]System.String, [mscorlib]System.Object& ) ->  
+}
+
+Skipped Types:
+
+[CompanyPortalComplianceCheck]System.Runtime.CompilerServices.NullableAttribute skipped:  compiler generated attribute rule in configuration
+{
+
+	[CompanyPortalComplianceCheck]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [mscorlib]System.Byte ) skipped:  special name
+	[CompanyPortalComplianceCheck]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [mscorlib]System.Byte[] ) skipped:  special name
+
+	System.Byte[] [CompanyPortalComplianceCheck]System.Byte[] System.Runtime.CompilerServices.NullableAttribute::NullableFlags ->  
+}
+
+[CompanyPortalComplianceCheck]System.Runtime.CompilerServices.NullableContextAttribute skipped:  compiler generated attribute rule in configuration
+{
+
+	[CompanyPortalComplianceCheck]System.Runtime.CompilerServices.NullableContextAttribute::.ctor[1]( [mscorlib]System.Byte ) skipped:  special name
+
+	System.Byte [CompanyPortalComplianceCheck]System.Byte System.Runtime.CompilerServices.NullableContextAttribute::Flag ->  
+}
+
+[CompanyPortalComplianceCheck]System.Runtime.CompilerServices.RefSafetyRulesAttribute skipped:  compiler generated attribute rule in configuration
+{
+
+	[CompanyPortalComplianceCheck]System.Runtime.CompilerServices.RefSafetyRulesAttribute::.ctor[1]( [mscorlib]System.Int32 ) skipped:  special name
+
+	System.Int32 [CompanyPortalComplianceCheck]System.Int32 System.Runtime.CompilerServices.RefSafetyRulesAttribute::Version ->  
+}
+
+[CompanyPortalComplianceCheck]Microsoft.CodeAnalysis.EmbeddedAttribute skipped:  compiler generated attribute rule in configuration
+{
+
+	[CompanyPortalComplianceCheck]Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor[0]( ) skipped:  special name
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+
