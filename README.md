@@ -36,3 +36,13 @@ This tool does not bypass compliance, assignments or Intune policies. It only tr
 Download the application and run it as the logged on user:
 
 
+## PowerShell script version
+
+The repository also includes a PowerShell version:
+
+```powershell
+powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File .\Invoke-CompanyPortalComplianceCheckFull.ps1 -TimeoutSeconds 900 -PollSeconds 20
+OR to skippolling and show the restults
+powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File .\Invoke-CompanyPortalComplianceCheckFull.ps1 -SkipPolling
+
+
